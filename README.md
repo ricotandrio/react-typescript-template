@@ -1,11 +1,48 @@
-# React + TypeScript + Vite
+# React Typescript + Redux + Zod + Vite Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template offers a streamlined setup for building React applications with TypeScript, Redux state management, Zod for data validation, and Vite for fast development with Hot Module Replacement (HMR). It includes essential ESLint rules for maintaining code quality and consistency.
 
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Folder Structure
+```
+template
+├───public
+├───src
+│   ├───apis
+│   │   ├───helpers
+│   │   └───services
+│   ├───assets
+│   │   ├───datas
+│   │   ├───fonts
+│   │   │   ├───Kanit
+│   │   │   └───Poppins
+│   │   ├───images
+│   │   └───styles
+│   ├───components
+│   ├───configs
+│   ├───models
+│   │   ├───database
+│   │   ├───requests
+│   │   ├───responses
+│   │   └───zod
+│   ├───pages
+│   ├───redux
+│   │   └───user
+│   │   │   ├───userSelectors.ts
+│   │   │   ├───userSlice.ts
+│   │   │   └───userThunks.ts
+│   │   └───store.ts
+│   ├───main.tsx
+│   ├───router.tsx
+│   └───vite-env.d.ts
+├───.env
+└───index.html
+```
 
 ## Expanding the ESLint configuration
 
