@@ -107,9 +107,9 @@ export default {
 To begin, clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/ricotandrio/clone-spotify.git
+git clone https://github.com/ricotandrio/react-typescript-template.git
 
-cd clone-spotify
+cd react-typescript-template
 ```
 
 Use npm to install the necessary modules.
